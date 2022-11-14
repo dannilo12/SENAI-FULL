@@ -19,8 +19,5 @@
   <p>Atualizar do repositorio princial</p>
   <li>$ git push <branch></li>
   <p>Empurar alterações para o repositório principal</p>
-  <li></li>
-  <p></p>
-  <li></li>
-  <p></p>
+  
 </ul>
