@@ -1,32 +1,26 @@
 <h2>Principais comandos para o GIT</h2>
-Iniciará o git dentro do repositório
-$ git init
-Clonar um repositório $git clone <url>
+<hr/>
 
-Adicionar um repositório local $git remote add <nome do repositorio> <path do arquivo>
 
-Adicionar repositorio remoto $git remote add <URL>
-
-Ver os arquivos que foram modificados $ git status
-
-Ver em uma linha $ git init --oneline
-Adicionar para uma sessão que pode fazer commmits $git add <nome do arquivo>
-
-git add . para adicionar todos
-Para fazer um commit $ git commit -m "Alterações feitas"
-
-Para armazenar em memória sem a sessão commit $git stash
-
-Para atualizar do repositorio princial $git pull origin master
-
-Para empurar alterações para o repositório principal
-
-$ git push <branch>
-
-Para alterar um commit
-
-Commit ainda não foi dado push $git commit --amend E edite o commit no editor de texto
-Se o commit ja foi feito o exemplo acima vale no entanto o push deve ser feito como $git push --force-with-lease
-Criar um branch $git branch -a <nome do branch> -Ir para o branch $git checkout <nome do branch>
-
-Atualizar o branch por outro $git rebase <nome do branch>
+<ul>
+  <li>$ git init</li>
+  <p>Inicia o Git no repositório, assim, é possivel realizar interações com o github</p>
+  <li>$ git clone</li>
+  <p>Proporcina baixar um repositorio do github para o repositório local</p>
+  <li>$ git remote add (url do repositório do github)</li>
+  <p>Conecta o repositório local com o repositório remoto</p>
+  <li>$ git status</li>
+  <p>Possibilitar consultar o status atual dos arquivos que estão no repositório local</p>
+  <li>$ git add . </li>
+  <p>Adiciona todos os arquivos modificados na branch para serem commitados</p>
+  <li>$ git commit -m "comentário"</li>
+  <p>prepara todos os aquivos adicionados para serem enviados para o repositório remoto</p>
+  <li>$ git pull origin master</li>
+  <p>Atualizar do repositorio princial</p>
+  <li>$ git push <branch></li>
+  <p>Empurar alterações para o repositório principal</p>
+  <li></li>
+  <p></p>
+  <li></li>
+  <p></p>
+</ul>
